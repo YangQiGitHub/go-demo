@@ -1,3 +1,3 @@
-module go-demo
+module github.com/YangQiGitHub/go-demo
 
-go 1.20
+go 1.21.1
