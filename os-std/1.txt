@@ -1,0 +1,4 @@
+helloinsert contentgolang~
+Hello Golang
+hello golang~
+Hello Golang
