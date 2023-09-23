@@ -1,13 +1,15 @@
 package main
 
 import (
-	fmtstd "go-demo/fmt-std"
-	osstd "go-demo/os-std"
+	fmtstd "github.com/YangQiGitHub/go-demo/fmt-std"
+	osstd "github.com/YangQiGitHub/go-demo/os-std"
+	ostime "github.com/YangQiGitHub/go-demo/os-time"
 )
 
 func main() {
   fmtstd.FmtDemoFun()
   osstd.OsDemoFun()
   osstd.FileDemo()
+  ostime.OsTimeDemo()
 }
 

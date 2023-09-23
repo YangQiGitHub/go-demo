@@ -1,5 +1,5 @@
-package osstd
 
+package osstd
 import (
 	"fmt"
 	"io"
@@ -13,7 +13,7 @@ func FileDemo() {
   // readDir()
   // fileSeek()
   // fileWrite()
-  fileWriteAt()
+  // fileWriteAt()
 }
 
 func fileStatus() {
