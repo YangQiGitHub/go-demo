@@ -1,4 +1,4 @@
-package ostime
+package timestd
 
 import (
 	"fmt"
