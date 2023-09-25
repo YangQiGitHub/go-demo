@@ -4,6 +4,7 @@ import (
 	fmtstd "github.com/YangQiGitHub/go-demo/fmt-std"
 	logstd "github.com/YangQiGitHub/go-demo/log-std"
 	osstd "github.com/YangQiGitHub/go-demo/os-std"
+	readyml "github.com/YangQiGitHub/go-demo/read-yml"
 	timestd "github.com/YangQiGitHub/go-demo/time-std"
 )
 
@@ -13,5 +14,8 @@ func main() {
   osstd.FileDemo()
   timestd.OsTimeDemo()
   logstd.LogDemo()
+
+  readyml.ReadConf()
 }
+
 

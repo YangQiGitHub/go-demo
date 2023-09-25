@@ -12,7 +12,7 @@ func LogDemo() {
   // logFatal()
   // logConf()
   // logPrefix()
-  log2File()
+  // log2File()
 }
 
 func logPrint() {
