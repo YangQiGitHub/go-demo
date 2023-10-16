@@ -17,6 +17,7 @@ func FmtDemoFun() {
   // testFprint()
   // testSprint()
   // testErrorf()
+  demo()
 }
 
 func basicStdoutPrint() {
@@ -144,4 +145,8 @@ func testErrorf() {
   if err != nil {
     panic(err)
   }
+}
+
+func demo() {
+  fmt.Fprintf(os.Stdout, "bb %s %s", "cc %s", "dd")
 }
